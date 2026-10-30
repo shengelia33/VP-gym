@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(60, 56, 57);
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+header {
+    position: relative;
+    padding: 15px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: auto;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main > section {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.gallery img {
+    width: 32%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer a {
+    color: white;
+}
